@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,700|Open+Sans:300,400,600');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #343a40;;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+}
+
+/*************
+Nav 
+*************/
+.nav{
+    background: gray;
+    color: white;
+}
+.nav a{
+    color: tomato;
+    font-family: 'Kalam', cursive;
+    font-size: 1.3rem;
+}
+
+/*************
+Header 
+*************/
+header{
+    background-image: url(./img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 92vh;
+}
+header div{
+    background: linear-gradient(rgb(255, 255, 255, .7), rgb(255, 255, 255, .7));
+    margin-left: 10px;
+    text-align: center;
+    padding: 1% 20%;
+    border: 2px solid gray;
+}
+header div h2{
+    color: tomato;
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+header div h4, header div p{
+    color: gray;
+}
+header div button{
+    padding: 10px 80px;
+    color: white;
+    background: tomato;
+    border: none;
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+}
+
+/*************
+Interests 
+*************/
+.interests .col-md-4 img{
+    width: 100%;
+    position: relative;
+}
+.interests h2{
+    font-size: 3.5rem;
+    color: gray;
+}
+.interests hr{
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background: tomato;
+    margin-bottom: 20px;
+}
+.interests .col-md-4 hr{
+    margin: auto;
+    width: 50px;
+    height: 5px;
+    background: tomato;
+    margin-bottom: 20px;
+}
+.interests .col-md-4 h5{
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(rgba(255, 98, 70, .8),rgba(255, 98, 70, .8));
+    color: gray;
+    padding: 7px 5px;
+    right: 15px;
+}
+.interests .row h4{
+    padding: 20px 0 30px 0;
+}
+
+/*************
+Skills 
+*************/
+.skills{
+    background: gray;
+    color: white;
+}
+.skills h2{
+    font-size: 3.5rem;
+}
+.skills hr{
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background: tomato;
+    margin-bottom: 20px;
+}
+.skills .col-md-4 i{
+    font-size: 4rem;
+    color: tomato;
+    padding: 20px;
+}
+.skills .col-md-4 h4{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+/*************
+Design 
+*************/
+.design .row img{
+    width: 100%;
+    transition: .3s ease;
+}
+.design .row .col-md-6{
+    padding: 0;
+    overflow: hidden;
+}
+.design h2{
+    font-size: 3.5rem;
+}
+.design hr{
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background: tomato;
+    margin-bottom: 20px;
+}
+.design .row img:hover{
+    transform: scale(1.3);
+    transition: .3s ease;
+}
+
+/*************
+Footer 
+*************/
+footer{
+    background: tomato;
+    color: gray;
+}
+footer h2{
+    font-size: 3.5rem;
+}
+footer hr{
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background: gray;
+    margin-bottom: 20px;
+}
+footer div i{
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+footer h4{
+    font-size: 2rem;
+    padding: 30px;
+}
